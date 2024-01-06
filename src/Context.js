@@ -21,7 +21,6 @@ export function ContextController({ children }) {
           track_list: res.data.message.body.track_list,
           heading: "Top 20 Tracks",
         });
-        console.log(res);
       })
       .catch((err) => console.log(err));
   }, []);
