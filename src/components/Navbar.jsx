@@ -61,14 +61,14 @@ const Navbar = () => {
           </button>
           <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <li>
-              <a className="dropdown-item" href="/" onClick={lightMode}>
+              <button className="dropdown-item" onClick={lightMode}>
                 Light
-              </a>
+              </button>
             </li>
             <li>
-              <a className="dropdown-item" href="/" onClick={darkMode}>
+              <button className="dropdown-item" onClick={darkMode}>
                 Dark
-              </a>
+              </button>
             </li>
           </ul>
         </div>
